@@ -12,6 +12,7 @@ class LoginPage extends StatelessWidget {
 
     bool isDesktop(BuildContext context) => currentWidth >= 600;
     bool isMobile(BuildContext context) => currentWidth < 600;
+
     final TextEditingController emailController = TextEditingController();
     final TextEditingController passwordController = TextEditingController();
 
@@ -30,12 +31,14 @@ class LoginPage extends StatelessWidget {
                 decoration: BoxDecoration(
                     color: isDesktop(context)
                         ? Colors.blue.shade100
-                        : Colors.blue.shade100,
+                        : Colors.green,
                     borderRadius: BorderRadius.circular(10),
                     boxShadow: const [
                       BoxShadow(color: Colors.grey, blurRadius: 1)
                     ]),
-                margin: isDesktop(context) ? const EdgeInsets.all(20) : null,
+                margin: currentWidth == 414
+                    ? const EdgeInsets.all(30)
+                    : const EdgeInsets.all(10),
                 child: Column(
                   children: [
                     const SizedBox(
