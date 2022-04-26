@@ -19,7 +19,7 @@ class Hompage extends StatelessWidget {
         // backgroundColor: currentWidth < 600 ? Colors.amber : Colors.red,
         body: Row(
           children: [
-            if (isDesktop(context))
+            if (isMobile(context))
               Container(
                 width: 200,
                 color: Colors.green,
