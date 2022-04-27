@@ -1,3 +1,38 @@
+// import 'package:flutter/material.dart';
+
+// class Lay extends StatelessWidget {
+//   const Lay({Key? key}) : super(key: key);
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return LayoutBuilder(builder: (context, Constraints) {
+//       bool isDesktop(BuildContext context) => Constraints.maxWidth > 600;
+//       return Scaffold(
+//           appBar: AppBar(
+//             title: isDesktop(context)
+//                 ? const Text("Desktop")
+//                 : const Text("Mobiel"),
+//           ),
+//           body: isDesktop(context)
+//               ? Row(children: [
+//                   Expanded(
+//                     flex: 1,
+//                     child: Container(
+//                       color: Colors.red,
+//                     ),
+//                   ),
+//                   Expanded(
+//                     flex: 3,
+//                     child: Container(
+//                       width: 200,
+//                       color: Colors.blue,
+//                     ),
+//                   ),
+//                 ])
+//               : const SingleChildScrollView());
+//     });
+//   }
+// }
 import 'package:flutter/material.dart';
 
 class Lay extends StatelessWidget {

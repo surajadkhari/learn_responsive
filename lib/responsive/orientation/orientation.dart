@@ -114,7 +114,7 @@ class OrientationPgae extends StatelessWidget {
       // children: List.generate(4, (index) => const Text("sjf")),
       children: [
         Image.network(
-            "https://lh3.googleusercontent.com/xqYYML8qjq22WfbjbAupQl3Ea8qTjBNkZNAY-Tvn_wS4E5yG1ETigIgXdGFfjFBMcvLTovdEKDRbfhVUajQRenMlfjIVPTUFZH3OpH26qtIqFU85EVr-pCNKaiQUh0Pm-xeJMv6T5d7F4YEwlTvV5uIDOlNjls0ZiGSHA-zwQEd-5zNn7AbNiXc6k72xMkTWFrmS00mgUDbOYr88otybkAg11pYlA1fcbh8rjkHTV6fFIFSeJWNUuvzZ4JWctasL0vxjj2qfVSBGfAEw5UNKwug955x3lG8YzqU2cLQfzVuTLMcEGgnsUXUzJDEcZMY0WeIhaveoCPxJpB5GoKaTLkFPkceKa0u83hw7SHkai_0Y4IJcvm2QqjP1jziBiVmBa9bIAapZJPmRM9DvHRnA9N2LRNjUGzXLY-W8P1cZmottueF0BeZubzasPTVQArUopIGcaV08VW4hB_AnO1-sbjfF_A-RNodwg9Xm6w3ZDIadD1itGT7khUTXGer07pftb8BBU5vFS6pPpBVedXEuxFhRJfyF27PnF2q1RnDQ-t3TtSc6tuihf5BiA8g0Pr3q_4vjlbMde04oairsIryuRW2jP7iDLk-rbgqjkSR40eslEgK-CCMs03Lx6tH4bNijzH5R3TCiXKqZrusileQ6HBrUk8HOxxzlcwxWBOtPvu49FW4wfSvO-DKER332oyDosVVWO6BoTO2RjHEN-3NoMTbW7KQzTVrpAN9Pi92g6i--mtC8e-cGkSmm-eTFM6u5zC1FZy6shVqy2GR-CUTcrYNfw_KLQgWEbORO=w1588-h893-no?authuser=1"),
+            "https://docs.flutter.dev/assets/images/dash/Dashatars.png"),
         TextFormField(
           style: const TextStyle(fontSize: 10),
           controller: emailController,
