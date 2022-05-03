@@ -64,7 +64,7 @@ class Porttait extends StatelessWidget {
   TextFormField _buildTextformField() {
     return TextFormField(
       decoration: const InputDecoration(
-          fillColor: Colors.red,
+          fillColor: Colors.blue,
           filled: true,
           hintText: "Usernaem",
           border: InputBorder.none),
